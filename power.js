@@ -1,7 +1,7 @@
 /*========================================
 =            VARIABLES!!!!!!!            =
 ========================================*/
-
+console.log('test');
 // Variable Declaration
 var myFirstVariable;
 
