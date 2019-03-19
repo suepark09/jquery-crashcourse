@@ -1,13 +1,14 @@
 $(function() {
 
-    $('h2').on('click', function() {
-        var $this = $(this);
-        console.log($this.next().text());
-    
-    });
+//reading data
 
-    // $('h2').click(function() {
-    //     console.log('u clicked on h2');
-    // });
+var textExample = $('h1').first().text();
+
+//Attribute sstuff 
+var whoAmI = $('.hero h1').attr('class');
+// console.log(whoAmI);
+
+var html5Data = $('.hero').find('h1').data('whatever');
+console.log(html5Data);
 
 });
