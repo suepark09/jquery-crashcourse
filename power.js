@@ -47,4 +47,17 @@ $('#is-author-checkbox input').on('change', function() {
         $emailInput.val('');
     }
 
+
+    //Creating Data
+    $('form select').change(function() {
+        $('.letter-preview').addClass('.show-me');
+
+    });
+    $('form textarea').on('input', function() {
+        
+
+    });
+
+
+
 });
